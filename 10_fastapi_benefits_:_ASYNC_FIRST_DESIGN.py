@@ -14,6 +14,7 @@ Ans. Async lets the server work on other tasks while waiting, so it doesn’t ge
 '''
 # Example
 # While waiting for a slow database call, the server can serve other users.
+# Other tasks means handling new requests, processing data, etc.
 
 
 '''
@@ -27,6 +28,11 @@ import asyncio
 async def slow_task():
     await asyncio.sleep(3)  # simulates a slow API call
     return {"done": True}
+# Here, other requests can be handled during the 3-second wait.
+# Processing other requests won't cause any issues as the event loop manages them efficiently.
+# An event loop is like a manager that keeps track of all tasks and switches between them as needed.
+# Event loop is a core part of async programming that allows multiple tasks to run seemingly at the same time.
+# Where is event loop present? It is part of the Python runtime when using async/await.
 
 
 '''
