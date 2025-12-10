@@ -14,7 +14,7 @@ FastAPI vs other frameworks
    - Fast to build + great developer experience vs faster raw performance.
 '''
 
-'''
+'''SET-1
 Q1. How is FastAPI different from Flask?
 Ans. FastAPI is faster, supports async, and creates auto docs. 
 Flask is simpler but can be slower when many users hit the server.
@@ -39,4 +39,30 @@ Q6. How does FastAPI compare to Go?
 Ans. FastAPI is faster to write and very friendly for developers.
 Go has faster raw performance but takes more effort to build full APIs.
 Example: Go wins in speed, FastAPI wins in development comfort.
+'''
+
+# ========================================================================================
+
+'''SET-2
+Q1. What kinds of projects are best suited for FastAPI?
+Ans. FastAPI is great for building modern APIs where speed and clean structure matter.
+Example: Mobile app backends or microservices.
+
+Q2. Why is FastAPI good for high-concurrency situations?
+Ans. FastAPI supports async, so it can handle many requests at the same time without slowing down.
+Example: A chat service or real-time dashboard.
+
+Q3. How does FastAPI help with correctness?
+Ans. It uses type hints to auto-validate data, reducing bugs and bad inputs.
+Example: If age must be an int, FastAPI checks it for you.
+
+Q4. Why is validation important for APIs?
+Ans. It protects your system from wrong or harmful data and makes your API more reliable.
+
+Q5. What makes FastAPI developer-friendly?
+Ans. It auto-generates docs, supports type hints, and has a clean, easy-to-read structure.
+
+Q6. What is the key takeaway about FastAPI?
+Ans. FastAPI = “Modern, Fast, Async, Auto-Docs, Developer-friendly.” 
+It helps you build strong and efficient APIs with less effort.
 '''
