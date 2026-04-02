@@ -15,7 +15,7 @@ It supports:
 
 The data is stored in an in-memory list,
 and I used Pydantic models for validation.
-"""  # :contentReference[oaicite:0]{index=0}
+"""  
 
 
 # Q2: What is your data model?
@@ -60,7 +60,7 @@ This means:
 - it resets when the server restarts
 
 It’s good for learning but not for production.
-"""  # :contentReference[oaicite:3]{index=3}
+""" 
 
 
 # Q5: How do you handle errors?
